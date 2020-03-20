@@ -1,4 +1,4 @@
-package com.app;
+package com.wihermes.cuasicuentos;
 
 import android.app.Application;
 import android.content.Context;

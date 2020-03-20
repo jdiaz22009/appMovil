@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "433526879778",
+    "firebase_url": "https://cuasicuentos-1.firebaseio.com",
+    "project_id": "cuasicuentos-1",
+    "storage_bucket": "cuasicuentos-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433526879778:android:44cf5590ad6c0e17",
+        "android_client_info": {
+          "package_name": "com.wihermes.cuasicuentos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433526879778-3i3kkd8itujf10cjdi8d03sstd850s9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wihermes.cuasicuentos",
+            "certificate_hash": "663c2d23df96ba51d418e608fa0431e1a82ec94f"
+          }
+        },
+        {
+          "client_id": "433526879778-ufphjsnbd7ba1o6gh7vpcipugl5po4s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC86pWRKcDuLynlXMaFpEp7cEll-H53li4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433526879778-ufphjsnbd7ba1o6gh7vpcipugl5po4s4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433526879778-3k7rt6t7dob3rgjqb6aeurg9gmhddh1g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wihermes.cuasicuentos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

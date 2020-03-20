@@ -18,8 +18,12 @@
 		2DCD954D1E0B4F2C00145EB5 /* appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* appTests.m */; };
 		731BFFC9D8C180AFDA3468C6 /* libPods-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A11561B0F09E349106F013 /* libPods-app.a */; };
 		7B4793ED987867277551B680 /* libPods-appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBB68972FE42789A0AD1091 /* libPods-appTests.a */; };
+		875565B9242519B000396685 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 875565B8242519AF00396685 /* GoogleService-Info.plist */; };
+		99EC2DE0FD014E7B9CA06781 /* Roboto-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D82E911C1361435E9A5F1D71 /* Roboto-Light.otf */; };
+		B22FB37A76B14E9D942D4920 /* Roboto-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 495451B59DBD46CCB60829C8 /* Roboto-Regular.otf */; };
 		B5747EB44FEE3122013319BB /* libPods-app-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870C3125DAA6D64D7FF979B0 /* libPods-app-tvOS.a */; };
 		B694E4FF10A40F869BB179B4 /* libPods-app-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9499EAD479944F8B262D78F8 /* libPods-app-tvOSTests.a */; };
+		F07B5A3E09104463A64DFBFF /* Roboto-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7651A3031E49441AA4E9DAC2 /* Roboto-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +48,7 @@
 		00E356EE1AD99517003FC87E /* appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Cuasicuentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuasicuentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = app/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = app/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -55,15 +59,19 @@
 		2D02E4901E0B4A5D006451C7 /* app-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34968AD790A4E5D094663F29 /* Pods-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appTests.release.xcconfig"; path = "Target Support Files/Pods-appTests/Pods-appTests.release.xcconfig"; sourceTree = "<group>"; };
 		456897F748A45A47A5B7239A /* Pods-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appTests.debug.xcconfig"; path = "Target Support Files/Pods-appTests/Pods-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		495451B59DBD46CCB60829C8 /* Roboto-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.otf"; path = "../src/assets/fonts/Roboto-Regular.otf"; sourceTree = "<group>"; };
 		50E1084B45181AD5E98554E1 /* Pods-app-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-app-tvOS/Pods-app-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		55A11561B0F09E349106F013 /* libPods-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		711A7615848B0A0650CC6AC5 /* Pods-app-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-app-tvOSTests/Pods-app-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7651A3031E49441AA4E9DAC2 /* Roboto-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.otf"; path = "../src/assets/fonts/Roboto-Bold.otf"; sourceTree = "<group>"; };
 		870C3125DAA6D64D7FF979B0 /* libPods-app-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875565B8242519AF00396685 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9499EAD479944F8B262D78F8 /* libPods-app-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9797F75DD2CFE1D0045FD066 /* Pods-app-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-app-tvOSTests/Pods-app-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CC266AB737CB3D6CD3CFCC7 /* Pods-app-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-tvOS.release.xcconfig"; path = "Target Support Files/Pods-app-tvOS/Pods-app-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		C047AE67CF739CE0CF4D2512 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
 		CBBB68972FE42789A0AD1091 /* libPods-appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82E911C1361435E9A5F1D71 /* Roboto-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.otf"; path = "../src/assets/fonts/Roboto-Light.otf"; sourceTree = "<group>"; };
 		D91C23F21160CC39C66888AC /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -149,6 +157,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		36E28633C51E4911AEC7A832 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7651A3031E49441AA4E9DAC2 /* Roboto-Bold.otf */,
+				D82E911C1361435E9A5F1D71 /* Roboto-Light.otf */,
+				495451B59DBD46CCB60829C8 /* Roboto-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +177,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				875565B8242519AF00396685 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* app */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* appTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E6639BD1E9B394F11788B369 /* Pods */,
+				36E28633C51E4911AEC7A832 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,7 +194,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* app.app */,
+				13B07F961A680F5B00A75B9A /* Cuasicuentos.app */,
 				00E356EE1AD99517003FC87E /* appTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* app-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* app-tvOSTests.xctest */,
@@ -194,7 +214,6 @@
 				456897F748A45A47A5B7239A /* Pods-appTests.debug.xcconfig */,
 				34968AD790A4E5D094663F29 /* Pods-appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -231,6 +250,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				CF32CCA59A9FC2A52A438535 /* [CP-User] [RNFB] Core Configuration */,
+				77794E60CC1F88033BEB9145 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +258,7 @@
 			);
 			name = app;
 			productName = app;
-			productReference = 13B07F961A680F5B00A75B9A /* app.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Cuasicuentos.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* app-tvOS */ = {
@@ -286,7 +306,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -309,6 +329,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,6 +360,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				875565B9242519B000396685 /* GoogleService-Info.plist in Resources */,
+				F07B5A3E09104463A64DFBFF /* Roboto-Bold.otf in Resources */,
+				99EC2DE0FD014E7B9CA06781 /* Roboto-Light.otf in Resources */,
+				B22FB37A76B14E9D942D4920 /* Roboto-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +477,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77794E60CC1F88033BEB9145 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-app/Pods-app-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-app/Pods-app-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CF32CCA59A9FC2A52A438535 /* [CP-User] [RNFB] Core Configuration */ = {
@@ -646,8 +689,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wihermes.cuasicuentos;
+				PRODUCT_NAME = Cuasicuentos;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -665,8 +708,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wihermes.cuasicuentos;
+				PRODUCT_NAME = Cuasicuentos;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -691,7 +734,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.app-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wihermes.cuasicuentos.REACT.app-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -719,7 +762,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.app-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wihermes.cuasicuentos.REACT.app-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
