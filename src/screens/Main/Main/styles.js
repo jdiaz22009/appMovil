@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     borderRadius: normalize(4)
   },
   btnMainText:{
-
+    fontFamily: 'Roboto-Regular',
   },
   imgContainer:{
     width: '70%',    

@@ -22,14 +22,14 @@ const styles = StyleSheet.create({
   title:{
     fontSize: normalize(18),
     color: BLUE_0,
-    fontFamily: 'NexaBold',
+    fontFamily: 'Roboto-Bold',
     marginBottom: normalize(15),
     textAlign: 'center',
   },
   summary:{
     fontSize: normalize(14),
     color: GRAY_0,
-    fontFamily: 'NexaLight',
+    fontFamily: 'Roboto-Light',
     textAlign: 'center',
   },
   btnContainer:{
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   btnConfirmText:{
     fontSize: normalize(13),
     color: '#fff',
-    fontFamily: 'NexaLight',
+    fontFamily: 'Roboto-Light',
   }
 })
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './styles'
 
 import { View, Text, Image, TouchableOpacity } from 'react-native'
@@ -6,6 +6,8 @@ import { View, Text, Image, TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
 import LinearGradient from 'react-native-linear-gradient'
+
+import Login from 'components/Auth/Login/Login'
 
 import ProfeImg from 'assets/images/profe512.png'
 import LogoImg from 'assets/images/logo.png'
@@ -20,6 +22,8 @@ const BtnMain = ({onPress, text}) => (
 )
 const MainScreen = () => {
 
+  const [showLogin, setShowLogin] = useState(false)
+
   return(
 
     <View>
@@ -33,7 +37,7 @@ const MainScreen = () => {
           <View style={styles.containerBtn}>
 
             <BtnMain
-              onPress={() => console.warn('online')}
+              onPress={() => setShowLogin(true)}
               text={`Ya casicuenteo (Online)`} />
 
             <BtnMain
@@ -52,7 +56,12 @@ const MainScreen = () => {
         
         </View>
 
-      </LinearGradient>      
+      </LinearGradient>     
+      
+      <Login
+        show={showLogin}
+        close={() => setShowLogin(false)} 
+      />
     
     </View>
 

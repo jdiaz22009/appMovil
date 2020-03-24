@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFD46E'
   },
   text: {
-    fontFamily: 'NexaLight',
-    // fontFamily: 'NexaBold',
+    fontFamily: 'Roboto-Light',
+    // fontFamily: 'Roboto-Bold',
     fontSize: normalize(17),
     color: '#ffff',
     textAlign: 'center'

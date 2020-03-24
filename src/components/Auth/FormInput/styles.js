@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     paddingBottom: normalize(10),
     paddingLeft: 0,    
     color: GRAY_0,  
-    fontFamily: 'NexaLight',
+    fontFamily: 'Roboto-Light',
     fontSize: normalize(16)
   },
   iconPassword:{
