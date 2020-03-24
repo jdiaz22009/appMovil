@@ -11,3 +11,6 @@ export const BAGDE = '#66baa5';
 export const COLOR_INICIO = '#f8bb36';
 export const COLOR_NUDO = '#ed6e56';
 export const COLOR_DESEN = '#ee5465';
+
+export const BTN_MAIN_COLOR = '#eec0c2'
+export const ARROW_COLOR = '#844d4a'
