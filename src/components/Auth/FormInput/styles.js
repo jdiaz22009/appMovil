@@ -2,26 +2,26 @@ import { StyleSheet } from 'react-native'
 
 import normalize from 'react-native-normalize'
 
-import { YELLOW_0, GRAY_0 } from 'utils/colors'
+import { COLOR_BOTONES, GRAY_0 } from 'utils/colors'
 
 const styles = StyleSheet.create({
   input:{
     flexDirection: 'row',    
     justifyContent: 'center',
     alignItems: 'center',        
-    borderBottomColor: YELLOW_0,
+    borderBottomColor: COLOR_BOTONES,
     borderBottomWidth: 1,
-    marginBottom: normalize(20),  
+    marginBottom: normalize(10),  
   },
   textInput:{
     flex: 1,    
-    paddingTop: normalize(10),
-    paddingRight: normalize(10),
-    paddingBottom: normalize(10),
+    paddingTop: normalize(3),
+    paddingRight: normalize(3),
+    paddingBottom: normalize(3),
     paddingLeft: 0,    
     color: GRAY_0,  
     fontFamily: 'Roboto-Light',
-    fontSize: normalize(16)
+    fontSize: normalize(10)
   },
   iconPassword:{
     padding: normalize(10),

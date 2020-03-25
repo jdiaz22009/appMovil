@@ -2,26 +2,25 @@ import { StyleSheet } from 'react-native'
 
 import normalize from 'react-native-normalize'
 
-import { BLUE_PLAFF, YELLOW_PLAFF } from 'utils/colors'
+import { BTN_MAIN_COLOR, YELLOW_PLAFF } from 'utils/colors'
 
 const styles = StyleSheet.create({
   btn: {
     borderRadius: normalize(50),
-    paddingHorizontal: normalize(20),
-    paddingVertical: normalize(10),
+    paddingHorizontal: normalize(5),
+    paddingVertical: normalize(5),    
   },
   btnEnabled: {
-    // backgroundColor: BLUE_PLAFF,
-    backgroundColor: YELLOW_PLAFF
+    backgroundColor: BTN_MAIN_COLOR,
+    // opacity: 0.3,
   },
-  btnDisabled: {
-    // backgroundColor: '#5E6E99',
-    backgroundColor: '#FFD46E'
+  btnDisabled: {    
+    backgroundColor: BTN_MAIN_COLOR,
+    // opacity: 1,
   },
   text: {
-    fontFamily: 'Roboto-Light',
-    // fontFamily: 'Roboto-Bold',
-    fontSize: normalize(17),
+    fontFamily: 'Roboto-Light',    
+    fontSize: normalize(8),
     color: '#ffff',
     textAlign: 'center'
   }

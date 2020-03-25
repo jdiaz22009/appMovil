@@ -48,6 +48,11 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
     alignSelf: 'center',
     alignSelf: 'flex-end'
+  },
+  appVersion: {    
+    fontFamily: 'Roboto-Regular',
+    textAlign: 'center',
+    marginTop: normalize(5)     
   }  
 })
 

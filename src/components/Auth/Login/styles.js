@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 
 import normalize from 'react-native-normalize'
 
-import { BLUE_0, GRAY_0 } from 'utils/colors'
+import { BLUE_1, GRAY_0 } from 'utils/colors'
 
 const styles = StyleSheet.create({
   modalContainer: {
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   },
   modalBody: {
     width: '70%',    
-    height: '95%',
+    height: '100%',
     borderRadius: normalize(5),
     backgroundColor: 'white',
     alignSelf: 'center'
@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
   },
   header: {
     flexDirection: 'row',        
-    // justifyContent: 'center',
-    // alignContent: 'center',
+    justifyContent: 'center',    
     marginTop: normalize(5)
   },
   title:{
@@ -32,8 +31,7 @@ const styles = StyleSheet.create({
     color: '#000',
     fontFamily: 'Roboto-Bold',
     marginBottom: normalize(10),
-    textAlign: 'center',
-    // alignSelf: 'center'
+    textAlign: 'center',    
   },
   btnCloseContainer:{
     // alignSelf: 'flex-end'
@@ -41,15 +39,43 @@ const styles = StyleSheet.create({
   closeBtn: {
     width: normalize(10),
     height: normalize(10),
-    resizeMode: 'contain',
-    
+    resizeMode: 'contain',    
   },
-  
+  containerForm: {
+    marginTop: normalize(25),
+    alignItems: 'center',
+    marginHorizontal: normalize(25)
+  },
+  btnContainer: {
+    marginTop: normalize(10),
+    marginBottom: normalize(15),
+    width: normalize(100),
+    alignSelf: 'center'
+  },
+  inputContainer: {
+    width: '100%',
+  },
   summary:{
-    fontSize: normalize(14),
+    fontSize: normalize(8),
     color: GRAY_0,
     fontFamily: 'Roboto-Light',
     textAlign: 'center',
+  },
+  rtxt: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: normalize(10) 
+  },
+  tregister: {
+    fontSize: normalize(8),
+    color: GRAY_0,
+    fontFamily: 'Roboto-Light',
+    marginEnd: normalize(3)
+  },
+  txtRegister: {
+    fontSize: normalize(8),
+    color: BLUE_1,
+    fontFamily: 'Roboto-Light',    
   }  
 })
 

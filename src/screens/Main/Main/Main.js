@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './styles'
 
 import { View, Text, Image, TouchableOpacity } from 'react-native'
@@ -8,6 +8,8 @@ import { useNavigation } from '@react-navigation/native'
 import LinearGradient from 'react-native-linear-gradient'
 
 import Login from 'components/Auth/Login/Login'
+
+import { getAppVersion } from 'utils/utils'
 
 import ProfeImg from 'assets/images/profe512.png'
 import LogoImg from 'assets/images/logo.png'
@@ -23,6 +25,13 @@ const BtnMain = ({onPress, text}) => (
 const MainScreen = () => {
 
   const [showLogin, setShowLogin] = useState(false)
+  const [appVersion, setAppVersion] = useState('')
+
+  useEffect(() => {    
+    if (getAppVersion()) {
+      setAppVersion(getAppVersion())
+    }    
+  }, [])
 
   return(
 
@@ -46,15 +55,18 @@ const MainScreen = () => {
 
             <BtnMain
               onPress={() => console.warn('offline')}
-              text={`Vengo de paso (Offline)`} />    
+              text={`Vengo de paso (Offline)`} />  
+              
+            <Text style={styles.appVersion}>Versión V.{appVersion}</Text>
       
           </View>
 
           <View style={styles.imgContainer}>
             <Image source={ProfeImg} style={styles.profe} />
           </View>
-        
-        </View>
+          
+        </View>          
+
 
       </LinearGradient>     
       

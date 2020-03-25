@@ -12,4 +12,4 @@ const BtnApp = (props) => (
   </TouchableOpacity>
 )
 
-export default BtnPlaff
+export default BtnApp
