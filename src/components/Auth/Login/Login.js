@@ -17,7 +17,6 @@ import { validateEmail, validatePassword, validateText } from 'utils/utils'
 
 import auth from '@react-native-firebase/auth'
 
-
 const formInit = {
   email: '',
   password: ''

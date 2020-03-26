@@ -11,10 +11,6 @@ import DrawerNavigator from './DrawerNavigator'
 import SplashScreen from 'screens/Main/Splash/Splash'
 import MainScreen from 'screens/Main/Main/Main'
 
-// import LoginScreen from 'screens/Auth/Login/Login'
-// import RegisterScreen from 'screens/Auth/Register/Register'
-// import RecoverPasswordScreen from 'screens/Auth/RecoverPassword/RecoverPassword'
-
 import normalize from 'react-native-normalize'
 
 import { BLUE_0, YELLOW_0 } from 'utils/colors'
@@ -84,7 +80,7 @@ const Navigator = () => {
                           headerTitleStyle: {
                             fontWeight: 'bold',
                             fontSize: normalize(20),
-                            fontFamily: 'Roboto Bold',
+                            fontFamily: 'Roboto-Bold',
                           },
                           headerLeft: () => (
                             <ButtonDrawer />

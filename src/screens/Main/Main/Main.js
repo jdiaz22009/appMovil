@@ -7,6 +7,8 @@ import { useNavigation } from '@react-navigation/native'
 
 import LinearGradient from 'react-native-linear-gradient'
 
+import auth from '@react-native-firebase/auth'
+
 import Login from 'components/Auth/Login/Login'
 import Register from 'components/Auth/Register/Register'
 
@@ -35,6 +37,17 @@ const MainScreen = () => {
     }    
   }, [])
 
+  const signAnonymously = async () => {
+    try{
+      const userCredential = await auth().signInAnonymously()
+      console.log(userCredential)
+      console.log(userCredential.user.email)
+      console.log(userCredential.user.uid)
+    }catch(e){
+      console.error(e)
+    }
+  }
+
   return(
 
     <View>
@@ -56,7 +69,7 @@ const MainScreen = () => {
               text={`Quiero Registrarme`} />
 
             <BtnMain
-              onPress={() => console.warn('offline')}
+              onPress={() => signAnonymously()}
               text={`Vengo de paso (Offline)`} />  
               
             <Text style={styles.appVersion}>Versión V.{appVersion}</Text>
