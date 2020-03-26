@@ -27,10 +27,10 @@ const styles = StyleSheet.create({
   },
   title:{
     width: '90%',
-    fontSize: normalize(12),
+    fontSize: normalize(10),
     color: '#000',
     fontFamily: 'Roboto-Bold',
-    marginBottom: normalize(10),
+    // marginBottom: normalize(1),
     textAlign: 'center',    
   },
   btnCloseContainer:{
@@ -42,21 +42,21 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',    
   },
   containerForm: {
-    marginTop: normalize(25),
+    marginTop: normalize(10),
     alignItems: 'center',
     marginHorizontal: normalize(25)
   },
   btnContainer: {
     marginTop: normalize(10),
     marginBottom: normalize(15),
-    width: normalize(100),
+    width: normalize(90),
     alignSelf: 'center'
   },
   inputContainer: {
     width: '100%',
   },
   summary:{
-    fontSize: normalize(8),
+    fontSize: normalize(7),
     color: GRAY_0,
     fontFamily: 'Roboto-Light',
     textAlign: 'center',
@@ -64,16 +64,17 @@ const styles = StyleSheet.create({
   rtxt: {
     flexDirection: 'row',
     justifyContent: 'center',
-    marginTop: normalize(10) 
+    marginTop: normalize(10),
+    marginBottom: normalize(20) 
   },
   tregister: {
-    fontSize: normalize(8),
+    fontSize: normalize(7),
     color: GRAY_0,
     fontFamily: 'Roboto-Light',
     marginEnd: normalize(3)
   },
   txtRegister: {
-    fontSize: normalize(8),
+    fontSize: normalize(7),
     color: BLUE_1,
     fontFamily: 'Roboto-Light',    
   }  

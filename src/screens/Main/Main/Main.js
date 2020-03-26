@@ -8,6 +8,7 @@ import { useNavigation } from '@react-navigation/native'
 import LinearGradient from 'react-native-linear-gradient'
 
 import Login from 'components/Auth/Login/Login'
+import Register from 'components/Auth/Register/Register'
 
 import { getAppVersion } from 'utils/utils'
 
@@ -25,6 +26,7 @@ const BtnMain = ({onPress, text}) => (
 const MainScreen = () => {
 
   const [showLogin, setShowLogin] = useState(false)
+  const [showRegister, setShowRegister] = useState(false)
   const [appVersion, setAppVersion] = useState('')
 
   useEffect(() => {    
@@ -50,7 +52,7 @@ const MainScreen = () => {
               text={`Ya casicuenteo (Online)`} />
 
             <BtnMain
-              onPress={() => console.warn('registro')}
+              onPress={() => setShowRegister(true)}
               text={`Quiero Registrarme`} />
 
             <BtnMain
@@ -73,6 +75,11 @@ const MainScreen = () => {
       <Login
         show={showLogin}
         close={() => setShowLogin(false)} 
+      />
+
+      <Register
+        show={showRegister}
+        close={() => setShowRegister(false)}
       />
     
     </View>

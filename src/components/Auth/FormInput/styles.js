@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     paddingLeft: 0,    
     color: GRAY_0,  
     fontFamily: 'Roboto-Light',
-    fontSize: normalize(10)
+    fontSize: normalize(7)
   },
   iconPassword:{
     padding: normalize(10),

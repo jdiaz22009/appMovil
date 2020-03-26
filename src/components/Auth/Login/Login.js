@@ -3,7 +3,6 @@ import styles from './styles'
 
 import { Modal, View, Text, Image,  TouchableOpacity } from 'react-native'
 
-import { useNavigation } from '@react-navigation/native'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 import FormInput from 'components/Auth/FormInput/FormInput'
@@ -45,17 +44,14 @@ const formOptions = [
   }
 ]
 
-const ConfirmAlert = (props) => {
+const Login = (props) => {
 
   const [visiblePassword, setVisiblePassword] = useState(false)
   const [formOpt, setFormOpt] = useState(formOptions)
   const [formData, setFormData] = useState(formInit)
   const [showLoader, setShowLoader] = useState(false)
   const [infoData, setInfoData] = useState(null)
-  const [btnDisabled, setBtnDisabled] = useState(true)
-
-  const navigation = useNavigation()
-
+  const [btnDisabled, setBtnDisabled] = useState(true) 
 
   const verifyValidations = () => {
     if (formOpt.every((item) => item.validate)) {
@@ -204,4 +200,4 @@ const ConfirmAlert = (props) => {
   )
 }
 
-export default ConfirmAlert
+export default Login
