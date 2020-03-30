@@ -7,7 +7,8 @@ const InfoAlert = (props) => (
   <Modal
     animationType="none"
     transparent
-    visible={props.data ? props.data.show : false}>
+    visible={props.data ? props.data.show : false}
+    supportedOrientations={['portrait', 'landscape']}>
 
     <View style={styles.modalContainer}>
 

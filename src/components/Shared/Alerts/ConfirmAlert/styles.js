@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 
 import normalize from 'react-native-normalize'
 
-import { BLUE_0, GRAY_0 } from 'utils/colors'
+import { BLUE_0, GRAY_0, BLACK_0, BTN_MAIN_COLOR, COLOR_LETRA } from 'utils/colors'
 
 const styles = StyleSheet.create({
   modalContainer: {
@@ -13,21 +13,22 @@ const styles = StyleSheet.create({
     paddingLeft: normalize(26),
   },
   modalBody: {
-    borderRadius: normalize(20),
-    height: normalize(200),
+    width: '70%',    
+    height: '80%',
+    borderRadius: normalize(5),
     backgroundColor: 'white',
-    width: '100%',    
-    justifyContent: 'center',
+    alignSelf: 'center'
   },
   title:{
-    fontSize: normalize(18),
-    color: BLUE_0,
+    fontSize: normalize(10),
+    color: BLACK_0,
     fontFamily: 'Roboto-Bold',
-    marginBottom: normalize(15),
+    marginBottom: normalize(10),
+    marginTop: normalize(10),
     textAlign: 'center',
   },
   summary:{
-    fontSize: normalize(14),
+    fontSize: normalize(10),
     color: GRAY_0,
     fontFamily: 'Roboto-Light',
     textAlign: 'center',
@@ -39,26 +40,26 @@ const styles = StyleSheet.create({
     marginBottom: normalize(10)
   },
   btnCancel:{
-    backgroundColor: BLUE_0,
+    backgroundColor: BTN_MAIN_COLOR,
     width: '30%',      
-    paddingVertical: normalize(15),
+    paddingVertical: normalize(5),
     borderRadius: normalize(6),
     alignItems: 'center'   
   },
   btnCancelText:{
-    fontSize: normalize(13),
+    fontSize: normalize(10),
     color: '#fff',
     fontFamily: 'Roboto-Light',
   },
   btnConfirm:{
-    backgroundColor: BLUE_0,   
+    backgroundColor: COLOR_LETRA,   
     width: '30%',      
-    paddingVertical: normalize(15),
+    paddingVertical: normalize(5),
     borderRadius: normalize(6),
     alignItems: 'center'   
   },
   btnConfirmText:{
-    fontSize: normalize(13),
+    fontSize: normalize(10),
     color: '#fff',
     fontFamily: 'Roboto-Light',
   }

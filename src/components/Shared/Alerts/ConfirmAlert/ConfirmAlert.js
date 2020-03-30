@@ -9,7 +9,8 @@ const ConfirmAlert = (props) => {
     <Modal
       animationType="none"
       transparent
-      visible={props.show}>
+      visible={props.show}
+      supportedOrientations={['portrait', 'landscape']}>
 
       <View style={styles.modalContainer}>
 

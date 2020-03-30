@@ -17,8 +17,7 @@ const styles = StyleSheet.create({
     height: '100%',
     borderRadius: normalize(5),
     backgroundColor: 'white',
-    alignSelf: 'center'
-    // justifyContent: 'center',
+    alignSelf: 'center'    
   },
   header: {
     flexDirection: 'row',        

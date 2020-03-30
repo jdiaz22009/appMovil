@@ -13,7 +13,7 @@ import MainScreen from 'screens/Main/Main/Main'
 
 import normalize from 'react-native-normalize'
 
-import { BLUE_0, YELLOW_0 } from 'utils/colors'
+import { BLACK_0 } from 'utils/colors'
 
 import ButtonDrawer from 'components/App/ButtonDrawer/ButtonDrawer'
 
@@ -74,12 +74,12 @@ const Navigator = () => {
                         {
                           title: 'Cuasicuentos',
                           headerStyle: {
-                            backgroundColor: BLUE_0,
+                            backgroundColor: BLACK_0,
                           },
                           headerTintColor: '#fff',
                           headerTitleStyle: {
                             fontWeight: 'bold',
-                            fontSize: normalize(20),
+                            fontSize: normalize(10),
                             fontFamily: 'Roboto-Bold',
                           },
                           headerLeft: () => (
