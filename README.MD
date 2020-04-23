@@ -53,12 +53,6 @@ pod install
 ```
 
 
-### upgrade belin-sdk
-
-```
-yarn upgrade belin-sdk
-```
-
 
 ### Build Android
 
